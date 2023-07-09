@@ -14,6 +14,29 @@
 		4777FD672A5AE6B20024A9B9 /* ImageEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD662A5AE6B20024A9B9 /* ImageEditorTests.swift */; };
 		4777FD712A5AE6B20024A9B9 /* ImageEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD702A5AE6B20024A9B9 /* ImageEditorUITests.swift */; };
 		4777FD732A5AE6B20024A9B9 /* ImageEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD722A5AE6B20024A9B9 /* ImageEditorUITestsLaunchTests.swift */; };
+		4777FD822A5AE74E0024A9B9 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD812A5AE74E0024A9B9 /* EditorView.swift */; };
+		4777FD8A2A5AE7600024A9B9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD842A5AE7600024A9B9 /* ImageView.swift */; };
+		4777FD8B2A5AE7600024A9B9 /* CircleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD852A5AE7600024A9B9 /* CircleIcon.swift */; };
+		4777FD8C2A5AE7600024A9B9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD862A5AE7600024A9B9 /* ImagePicker.swift */; };
+		4777FD8D2A5AE7600024A9B9 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD872A5AE7600024A9B9 /* PlayerView.swift */; };
+		4777FD8E2A5AE7600024A9B9 /* FontSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD882A5AE7600024A9B9 /* FontSlider.swift */; };
+		4777FD8F2A5AE7600024A9B9 /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD892A5AE7600024A9B9 /* TextLabel.swift */; };
+		4777FD952A5AE77E0024A9B9 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD912A5AE77E0024A9B9 /* CanvasViewController.swift */; };
+		4777FD962A5AE77E0024A9B9 /* MLCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD922A5AE77E0024A9B9 /* MLCanvas.swift */; };
+		4777FD972A5AE77E0024A9B9 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD932A5AE77E0024A9B9 /* CanvasView.swift */; };
+		4777FD982A5AE77E0024A9B9 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD942A5AE77E0024A9B9 /* Canvas.swift */; };
+		4777FD9B2A5AE78F0024A9B9 /* MediaProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD9A2A5AE78F0024A9B9 /* MediaProcessor.swift */; };
+		4777FDA62A5AE7A40024A9B9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD9D2A5AE7A40024A9B9 /* View+Extensions.swift */; };
+		4777FDA72A5AE7A40024A9B9 /* PKCanvasView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD9E2A5AE7A40024A9B9 /* PKCanvasView+Extensions.swift */; };
+		4777FDA82A5AE7A40024A9B9 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FD9F2A5AE7A40024A9B9 /* UIImageView+Extensions.swift */; };
+		4777FDA92A5AE7A40024A9B9 /* UIResponder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDA02A5AE7A40024A9B9 /* UIResponder+Extensions.swift */; };
+		4777FDAA2A5AE7A40024A9B9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDA12A5AE7A40024A9B9 /* String+Extensions.swift */; };
+		4777FDAB2A5AE7A40024A9B9 /* PKDrawing+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDA22A5AE7A40024A9B9 /* PKDrawing+Extensions.swift */; };
+		4777FDAC2A5AE7A40024A9B9 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDA32A5AE7A40024A9B9 /* UIImage+Extensions.swift */; };
+		4777FDAD2A5AE7A40024A9B9 /* AVAssetTrack+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDA42A5AE7A40024A9B9 /* AVAssetTrack+Extensions.swift */; };
+		4777FDAE2A5AE7A40024A9B9 /* Colors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDA52A5AE7A40024A9B9 /* Colors+Extensions.swift */; };
+		4777FDB02A5AE7EB0024A9B9 /* ShapesClassification.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 4777FDAF2A5AE7EB0024A9B9 /* ShapesClassification.mlpackage */; };
+		4777FDB22A5AE8CC0024A9B9 /* duck.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4777FDB12A5AE8C30024A9B9 /* duck.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +67,29 @@
 		4777FD6C2A5AE6B20024A9B9 /* ImageEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4777FD702A5AE6B20024A9B9 /* ImageEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorUITests.swift; sourceTree = "<group>"; };
 		4777FD722A5AE6B20024A9B9 /* ImageEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4777FD812A5AE74E0024A9B9 /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		4777FD842A5AE7600024A9B9 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		4777FD852A5AE7600024A9B9 /* CircleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleIcon.swift; sourceTree = "<group>"; };
+		4777FD862A5AE7600024A9B9 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4777FD872A5AE7600024A9B9 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4777FD882A5AE7600024A9B9 /* FontSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSlider.swift; sourceTree = "<group>"; };
+		4777FD892A5AE7600024A9B9 /* TextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		4777FD912A5AE77E0024A9B9 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		4777FD922A5AE77E0024A9B9 /* MLCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCanvas.swift; sourceTree = "<group>"; };
+		4777FD932A5AE77E0024A9B9 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		4777FD942A5AE77E0024A9B9 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		4777FD9A2A5AE78F0024A9B9 /* MediaProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaProcessor.swift; sourceTree = "<group>"; };
+		4777FD9D2A5AE7A40024A9B9 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		4777FD9E2A5AE7A40024A9B9 /* PKCanvasView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKCanvasView+Extensions.swift"; sourceTree = "<group>"; };
+		4777FD9F2A5AE7A40024A9B9 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDA02A5AE7A40024A9B9 /* UIResponder+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDA12A5AE7A40024A9B9 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDA22A5AE7A40024A9B9 /* PKDrawing+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PKDrawing+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDA32A5AE7A40024A9B9 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDA42A5AE7A40024A9B9 /* AVAssetTrack+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAssetTrack+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDA52A5AE7A40024A9B9 /* Colors+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Extensions.swift"; sourceTree = "<group>"; };
+		4777FDAF2A5AE7EB0024A9B9 /* ShapesClassification.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = ShapesClassification.mlpackage; sourceTree = "<group>"; };
+		4777FDB12A5AE8C30024A9B9 /* duck.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = duck.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +140,14 @@
 		4777FD542A5AE6B10024A9B9 /* ImageEditor */ = {
 			isa = PBXGroup;
 			children = (
-				4777FD552A5AE6B10024A9B9 /* ImageEditorApp.swift */,
+				4777FD802A5AE6D10024A9B9 /* Root */,
 				4777FD572A5AE6B10024A9B9 /* ContentView.swift */,
-				4777FD592A5AE6B20024A9B9 /* Assets.xcassets */,
+				4777FD812A5AE74E0024A9B9 /* EditorView.swift */,
+				4777FD9C2A5AE7950024A9B9 /* Extensions */,
+				4777FD992A5AE7850024A9B9 /* Classes */,
+				4777FD902A5AE7660024A9B9 /* Canvas */,
+				4777FD832A5AE7550024A9B9 /* Views */,
+				4777FD7F2A5AE6C80024A9B9 /* Resources */,
 				4777FD5B2A5AE6B20024A9B9 /* Preview Content */,
 			);
 			path = ImageEditor;
@@ -125,6 +176,72 @@
 				4777FD722A5AE6B20024A9B9 /* ImageEditorUITestsLaunchTests.swift */,
 			);
 			path = ImageEditorUITests;
+			sourceTree = "<group>";
+		};
+		4777FD7F2A5AE6C80024A9B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4777FDB12A5AE8C30024A9B9 /* duck.mp4 */,
+				4777FDAF2A5AE7EB0024A9B9 /* ShapesClassification.mlpackage */,
+				4777FD592A5AE6B20024A9B9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4777FD802A5AE6D10024A9B9 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				4777FD552A5AE6B10024A9B9 /* ImageEditorApp.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		4777FD832A5AE7550024A9B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4777FD852A5AE7600024A9B9 /* CircleIcon.swift */,
+				4777FD882A5AE7600024A9B9 /* FontSlider.swift */,
+				4777FD862A5AE7600024A9B9 /* ImagePicker.swift */,
+				4777FD842A5AE7600024A9B9 /* ImageView.swift */,
+				4777FD872A5AE7600024A9B9 /* PlayerView.swift */,
+				4777FD892A5AE7600024A9B9 /* TextLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4777FD902A5AE7660024A9B9 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				4777FD942A5AE77E0024A9B9 /* Canvas.swift */,
+				4777FD932A5AE77E0024A9B9 /* CanvasView.swift */,
+				4777FD912A5AE77E0024A9B9 /* CanvasViewController.swift */,
+				4777FD922A5AE77E0024A9B9 /* MLCanvas.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		4777FD992A5AE7850024A9B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4777FD9A2A5AE78F0024A9B9 /* MediaProcessor.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4777FD9C2A5AE7950024A9B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4777FDA42A5AE7A40024A9B9 /* AVAssetTrack+Extensions.swift */,
+				4777FDA52A5AE7A40024A9B9 /* Colors+Extensions.swift */,
+				4777FD9E2A5AE7A40024A9B9 /* PKCanvasView+Extensions.swift */,
+				4777FDA22A5AE7A40024A9B9 /* PKDrawing+Extensions.swift */,
+				4777FDA12A5AE7A40024A9B9 /* String+Extensions.swift */,
+				4777FDA32A5AE7A40024A9B9 /* UIImage+Extensions.swift */,
+				4777FD9F2A5AE7A40024A9B9 /* UIImageView+Extensions.swift */,
+				4777FDA02A5AE7A40024A9B9 /* UIResponder+Extensions.swift */,
+				4777FD9D2A5AE7A40024A9B9 /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4777FD5D2A5AE6B20024A9B9 /* Preview Assets.xcassets in Resources */,
+				4777FDB22A5AE8CC0024A9B9 /* duck.mp4 in Resources */,
 				4777FD5A2A5AE6B20024A9B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +375,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4777FD8B2A5AE7600024A9B9 /* CircleIcon.swift in Sources */,
+				4777FDAD2A5AE7A40024A9B9 /* AVAssetTrack+Extensions.swift in Sources */,
+				4777FD982A5AE77E0024A9B9 /* Canvas.swift in Sources */,
+				4777FD8A2A5AE7600024A9B9 /* ImageView.swift in Sources */,
+				4777FDAC2A5AE7A40024A9B9 /* UIImage+Extensions.swift in Sources */,
+				4777FD972A5AE77E0024A9B9 /* CanvasView.swift in Sources */,
+				4777FDA82A5AE7A40024A9B9 /* UIImageView+Extensions.swift in Sources */,
+				4777FD8D2A5AE7600024A9B9 /* PlayerView.swift in Sources */,
+				4777FDA72A5AE7A40024A9B9 /* PKCanvasView+Extensions.swift in Sources */,
+				4777FDB02A5AE7EB0024A9B9 /* ShapesClassification.mlpackage in Sources */,
+				4777FD822A5AE74E0024A9B9 /* EditorView.swift in Sources */,
+				4777FD8C2A5AE7600024A9B9 /* ImagePicker.swift in Sources */,
+				4777FD9B2A5AE78F0024A9B9 /* MediaProcessor.swift in Sources */,
+				4777FDAE2A5AE7A40024A9B9 /* Colors+Extensions.swift in Sources */,
+				4777FDA92A5AE7A40024A9B9 /* UIResponder+Extensions.swift in Sources */,
+				4777FD8E2A5AE7600024A9B9 /* FontSlider.swift in Sources */,
+				4777FD8F2A5AE7600024A9B9 /* TextLabel.swift in Sources */,
+				4777FDAA2A5AE7A40024A9B9 /* String+Extensions.swift in Sources */,
 				4777FD582A5AE6B10024A9B9 /* ContentView.swift in Sources */,
+				4777FDAB2A5AE7A40024A9B9 /* PKDrawing+Extensions.swift in Sources */,
+				4777FD952A5AE77E0024A9B9 /* CanvasViewController.swift in Sources */,
+				4777FD962A5AE77E0024A9B9 /* MLCanvas.swift in Sources */,
+				4777FDA62A5AE7A40024A9B9 /* View+Extensions.swift in Sources */,
 				4777FD562A5AE6B10024A9B9 /* ImageEditorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +560,8 @@
 				DEVELOPMENT_TEAM = HJ9L53D9PB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To DO";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +591,8 @@
 				DEVELOPMENT_TEAM = HJ9L53D9PB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To DO";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
